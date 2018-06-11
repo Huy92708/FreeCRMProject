@@ -64,11 +64,11 @@ public class HomePageTest extends TestBase {
 		contactsPage = homePage.clickOnContactsLink();
 	}
 	
-//	@Test(priority=4)
-//	public void verifyBrokenLinksAndImagesTest() throws MalformedURLException, IOException {
-//		testUtil.switchToFrame();
-//		testUtil.checkBrokenLinksAndImages();
-//	}	
+	@Test(priority=4)
+	public void verifyBrokenLinksAndImagesTest() throws MalformedURLException, IOException {
+		testUtil.switchToFrame();
+		testUtil.checkBrokenLinksAndImages();
+	}	
 	
 	@AfterMethod
 	public void tearDown(){
