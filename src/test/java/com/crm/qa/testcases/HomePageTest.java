@@ -1,14 +1,5 @@
 package com.crm.qa.testcases;
 
-import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -49,7 +40,7 @@ public class HomePageTest extends TestBase {
 	public void verifyHomePageTitleTest(){
 		testUtil.switchToFrame();
 		String homePageTitle = homePage.verifyHomePageTitle();
-		Assert.assertEquals(homePageTitle, "CRMPRO","Home page title not matched");
+		Assert.assertEquals(homePageTitle, "CRMPR0)","Home page title not matched");
 	}
 	
 	@Test(priority=2)
