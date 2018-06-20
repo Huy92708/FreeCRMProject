@@ -56,12 +56,12 @@ public class TasksPageTest extends TestBase{
 		Assert.assertTrue(tasksPage.verifyShowingAllTasksLabel(), "contacts label is missing on the page");
 	}
 
-	@Test(priority=2)
-	public void checkBrokenLinksImagesTest() throws IOException {	
-		driver.navigate().refresh();
-		testUtil.switchToFrame();
-		testUtil.checkBrokenLinksAndImages();
-	}
+//	@Test(priority=2)
+//	public void checkBrokenLinksImagesTest() throws IOException {	
+//		driver.navigate().refresh();
+//		testUtil.switchToFrame();
+//		testUtil.checkBrokenLinksAndImages();
+//	}
 
 	@AfterMethod
 	public void tearDown() {
