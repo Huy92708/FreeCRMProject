@@ -29,16 +29,16 @@ public class LoginPageTest extends TestBase{
 		Assert.assertEquals(title, "Free CRM software in the cloud powers sales and customer service");
 	}
 	
-	@Test(priority=2)
-	public void crmLogoImageTest(){
-		boolean flag = loginPage.validateCRMImage();
-		Assert.assertTrue(flag);
-	}
-	
-	@Test(priority=3)
-	public void loginTest(){
-		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-	}
+//	@Test(priority=2)
+//	public void crmLogoImageTest(){
+//		boolean flag = loginPage.validateCRMImage();
+//		Assert.assertTrue(flag);
+//	}
+//	
+//	@Test(priority=3)
+//	public void loginTest(){
+//		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+//	}
 	
 	@AfterMethod
 	public void tearDown(){
