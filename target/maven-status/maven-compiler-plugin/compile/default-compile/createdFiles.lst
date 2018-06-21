@@ -9,4 +9,3 @@ com\crm\qa\base\TestBase.class
 com\crm\qa\util\TestUtil.class
 com\crm\qa\pages\SignUpPage.class
 com\crm\qa\util\WebEventListener.class
-com\qa\ExtentReportListener\ExtentReporterNG.class
