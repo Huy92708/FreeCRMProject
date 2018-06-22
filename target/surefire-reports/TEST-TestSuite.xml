@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="17" failures="0" name="TestSuite" time="24.621" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="TestSuite" time="12.305" errors="0" skipped="0">
   <properties>
     <property name="JOB_NAME" value="FreeCRMLocal"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -25,8 +25,8 @@
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="FreeCRMLocal"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMLocal/2/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMLocal/3/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10.0.1\bin"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
@@ -37,7 +37,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="NODE_NAME" value="master"/>
-    <property name="BUILD_ID" value="2"/>
+    <property name="BUILD_ID" value="3"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
@@ -51,7 +51,7 @@
     <property name="java.home" value="C:\Program Files\Java\jdk-10.0.1"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMLocal/2/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMLocal/3/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\WINDOWS\TEMP"/>
     <property name="path.separator" value=";"/>
@@ -73,7 +73,7 @@
     <property name="POM_GROUPID" value="FreeCRMTestAutomation"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-FreeCRMLocal-2"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCRMLocal-3"/>
     <property name="JENKINS_SERVER_COOKIE" value="5327232442ae4dd3"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -88,7 +88,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenTest"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenTest\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenTest/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenTest C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.20.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 65462"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenTest C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.20.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 50159"/>
     <property name="Path" value="C:\Program Files\Java\jdk-10.0.1/bin;C:\Program Files\Java\jdk-10.0.1\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jre-10.0.1\bin;C:\Eclipse IDE\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
     <property name="jdk.debug" value="release"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -105,7 +105,7 @@
     <property name="PATH+MAVEN" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenTest/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/FreeCRMLocal/2/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/FreeCRMLocal/3/"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -117,7 +117,7 @@
 "/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
-    <property name="BUILD_NUMBER" value="2"/>
+    <property name="BUILD_NUMBER" value="3"/>
     <property name="PROCESSOR_REVISION" value="8e09"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
@@ -133,21 +133,11 @@
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="java.vendor.version" value="18.3"/>
   </properties>
-  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="verifyContactsPageLabel" time="0.032"/>
-  <testcase classname="com.crm.qa.testcases.DealsPageTest" name="verifyDealsLabelTest" time="0.03"/>
-  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyHomePageTitleTest" time="0.04"/>
-  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginPageTitleTest" time="0.021"/>
-  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="verifyTasksPageLabel" time="0.035"/>
-  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="selectSingleContactsTest" time="0.137"/>
-  <testcase classname="com.crm.qa.testcases.DealsPageTest" name="createNewDealTest" time="6.651"/>
-  <testcase classname="com.crm.qa.testcases.DealsPageTest" name="createNewDealTest" time="6.221"/>
-  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyUserNameTest" time="0.061"/>
-  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="crmLogoImageTest" time="0.047"/>
-  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="selectMultipleContactsTest" time="0.144"/>
-  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyContactsLinkTest" time="0.766"/>
-  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginTest" time="2.054"/>
-  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="validateCreateNewContactTest" time="2.358"/>
-  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="validateCreateNewContact" time="1.893"/>
-  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="validateCreateNewContact" time="2.117"/>
-  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="validateCreateNewContact" time="2.014"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="verifyContactsPageLabel" time="0.033"/>
+  <testcase classname="com.crm.qa.testcases.DealsPageTest" name="verifyDealsLabelTest" time="0.04"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyHomePageTitleTest" time="0.043"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginPageTitleTest" time="0.027"/>
+  <testcase classname="com.crm.qa.testcases.TasksPageTest" name="verifyTasksPageLabel" time="0.031"/>
+  <testcase classname="com.crm.qa.testcases.DealsPageTest" name="createNewDealTest" time="6.224"/>
+  <testcase classname="com.crm.qa.testcases.DealsPageTest" name="createNewDealTest" time="5.907"/>
 </testsuite>

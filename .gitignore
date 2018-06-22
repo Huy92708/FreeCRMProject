@@ -1,2 +1,4 @@
-/screenshots
-Extent.html
+.classpath
+.project
+.settings/
+*/target/*

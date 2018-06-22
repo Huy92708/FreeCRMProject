@@ -43,17 +43,17 @@ public class HomePageTest extends TestBase {
 		Assert.assertEquals(homePageTitle, "CRMPRO","Home page title not matched");
 	}
 	
-//	@Test(priority=2)
-//	public void verifyUserNameTest(){
-//		testUtil.switchToFrame();
-//		Assert.assertTrue(homePage.verifyCorrectUserName());
-//	}
-//	
-//	@Test(priority=3)
-//	public void verifyContactsLinkTest(){
-//		testUtil.switchToFrame();
-//		contactsPage = homePage.clickOnContactsLink();
-//	}
+	@Test(priority=2)
+	public void verifyUserNameTest(){
+		testUtil.switchToFrame();
+		Assert.assertTrue(homePage.verifyCorrectUserName());
+	}
+	
+	@Test(priority=3)
+	public void verifyContactsLinkTest(){
+		testUtil.switchToFrame();
+		contactsPage = homePage.clickOnContactsLink();
+	}
 	
 //	@Test(priority=4)
 //	public void verifyBrokenLinksAndImagesTest() throws MalformedURLException, IOException {
