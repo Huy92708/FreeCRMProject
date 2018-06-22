@@ -105,4 +105,21 @@
 		</dependency>
 
 	</dependencies>
+<build>
+   	<plugins>	
+	<plugin>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <configuration>
+        <testFailureIgnore>false</testFailureIgnore>
+        <properties>
+            <property>
+                <name>listener</name>
+                <value>com.crm.qa.extentReportlistener.ExtentReporterNG</value>
+            </property>
+        </properties>
+    </configuration>
+	</plugin>
+	</plugins>
+</build>
+
 </project>
