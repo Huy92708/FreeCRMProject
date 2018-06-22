@@ -114,7 +114,7 @@
         <properties>
             <property>
                 <name>listener</name>
-                <value>com.crm.qa.extentReportlistener.ExtentReporterNG</value>
+                <value>com.crm.qa.extentreportlistener.ExtentReporterNG</value>
             </property>
         </properties>
     </configuration>
